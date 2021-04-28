@@ -1,5 +1,8 @@
 while True :
+ nowy_test
+    ##ZMIANA TESTOWA
     ##Menu z różnymi zadaniami
+ main
     print("aby zobaczyć informacje o autorze, wciśnij \"1\"")
     print("aby zobaczyć wykonane dziś zadanie o czarodzieju, wściśnij \"2\"")
     print("aby zobaczyć wykonane dziś zadanie o generatorze haseł, wściśnij \"3\"")
