@@ -1,4 +1,5 @@
 while True :
+    ##Menu z różnymi zadaniami
     print("aby zobaczyć informacje o autorze, wciśnij \"1\"")
     print("aby zobaczyć wykonane dziś zadanie o czarodzieju, wściśnij \"2\"")
     print("aby zobaczyć wykonane dziś zadanie o generatorze haseł, wściśnij \"3\"")
@@ -7,8 +8,10 @@ while True :
     print("aby zakończyć program wściśnij \"6\"")
     znak = input()
     if znak == "1":
+        ##wyświetla informacje o autorze
         print("Natalia Krata")
     elif znak == "2":
+        #wyświetla słowo w zależności od wylosowanej liczby
         import random
         wylosowana=random.random()
         if wylosowana<=0.001:
@@ -22,13 +25,16 @@ while True :
         if wylosowana >0.5 and wylosowana <=0.99:
             print("balonik")
     elif znak == "4":
+        #treść tego zadania jest całym kodem test.py
         print("właśnie widzisz to zadanie")
     elif znak == "3":
+        #tworzy losowe hasło
         import random
         baza_litery="abcdefghijklmnoprstuwqxz"
         baza_cyfry="0123456789"
         print(random.choice(baza_litery),random.choice(baza_litery),random.choice(baza_litery),random.choice(baza_litery) + random.choice(baza_cyfry),random.choice(baza_cyfry),random.choice(baza_cyfry))
     elif znak == "5":
+        #kto poda większą liczbę użytkownik czy komputer. Wyświetla się 10 prób. 
         import random
         punkty_gracza=0
         punkty_komputera=0
